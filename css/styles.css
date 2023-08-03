@@ -673,7 +673,7 @@ letter-spacing: 0.02em;
 margin-bottom: 16px;
 }
 .modal-field {
- margin-bottom: 16px;
+ margin-bottom: 8px;
 }
 .modal-label {
   color: var(--lightslate, #8E8F99);
