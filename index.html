@@ -352,6 +352,7 @@
         </div>
       </section>
     </main>
+    <!-- Footer -->
     <footer class="footer">
       <div class="container">
         <div class="footer-container">
@@ -416,6 +417,7 @@
         </div>
       </div>
             </footer>
+            <!-- Modal-window -->
     <div class="container-modal is-hidden" data-modal>
       <div class="modal-window">
         <button class="btn-modal" type="button" data-modal-close>
@@ -453,12 +455,18 @@
             </div>
           </div>
           <div class="modal-field">
-          <label class="modal-label" for="user-text">Comment</label>
-          <textarea class="modal-comment" name="user-text" id="user-text" placeholder="Text input"></textarea>
-          </div>
-          <div class="modal-field">
-            <input class="modal-check" type="checkbox" name="policy" id="policy" value="true">
-            <label class="modal-check-text" for="policy">I accept the terms and conditions of the <a class="modal-check-link" href="">Privacy Policy</a></label>
+          <label class="modal-label" for="user-comment">Comment</label>
+          <textarea class="modal-comment" name="user-comment" id="user-comment" placeholder="Text input"></textarea>
+          <div class="modal-check-container">
+            <input class="modal-check visually-hidden" type="checkbox" name="user-privacy" id="user-privacy" value="true">
+            <label class="modal-check-text" for="user-privacy">
+              <span class="modal-span">
+              <svg class="modal-svg" widht="10" height="8">
+                <use href="./images/icons.svg#icon-check-mark">
+                </use>
+              </svg>
+            </span>I accept the terms and conditions of the
+            <a class="modal-check-link" href="">Privacy Policy</a></label>
           </div>
           <button class="modal-btn-send" type="submit">Send</button>
           </form>
