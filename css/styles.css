@@ -750,7 +750,7 @@ display: block;
 font-size: 12px;
 line-height: 1.17;
 letter-spacing: 0.04em;
-display: inline-flex;
+display: flex;
 gap: 8px;
 }
 input[type="checkbox"]:checked + label .modal-svg-check {
