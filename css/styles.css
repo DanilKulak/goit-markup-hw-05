@@ -749,12 +749,6 @@ display: block;
 font-size: 12px;
 line-height: 1.17;
 letter-spacing: 0.04em;
-display: inline-block;
-}
-.modal-check:checked + .modal-check-text span {
-  background-color:var(--ocean);
-  border: none;
-  fill:var(--cloud);
 }
 .modal-span {
   width: 16px;
@@ -765,10 +759,15 @@ display: inline-block;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-   fill: transparent;
+  fill: transparent;
 }
 .modal-check-link {
 color: #4d5ae5;
+}
+.modal-check:checked + .modal-check-text span {
+  background-color:var(--ocean);
+  border: none;
+  fill:var(--cloud);
 }
 .modal-btn-send {
 display: block;
