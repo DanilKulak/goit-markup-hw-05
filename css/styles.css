@@ -750,7 +750,7 @@ display: block;
 font-size: 12px;
 line-height: 1.17;
 letter-spacing: 0.04em;
-display: flex;
+display: inline-flex;
 gap: 8px;
 }
 input[type="checkbox"]:checked + label .modal-svg-check {
@@ -759,7 +759,6 @@ input[type="checkbox"]:checked + label .modal-svg-check {
 input:checked + label .modal-span {
   background-color: #404bbf;
   border: none;
-  fill: #F4F4FD;
 }
 .modal-span {
   width: 16px;
