@@ -750,8 +750,7 @@ display: block;
 font-size: 12px;
 line-height: 1.17;
 letter-spacing: 0.04em;
-display: flex;
-gap: 8px;
+display: inline-block;
 }
 input:checked + label .modal-svg-check {
   fill:var(--cloud);
@@ -759,12 +758,11 @@ input:checked + label .modal-svg-check {
 input:checked + label .modal-span {
   background-color:var(--ocean);
   border: none;
-  fill:var(--cloud);
 }
 .modal-span {
   width: 16px;
   height: 16px;
-  border: 1px solid rgba(46, 47, 66, 0.4);
+  border: 1px solid var(--navyblue-modal, rgba(46, 47, 66, 0.40));
   border-radius: 2px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   display: inline-flex;
