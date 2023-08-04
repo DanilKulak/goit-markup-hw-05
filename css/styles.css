@@ -718,8 +718,8 @@ display: block;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-   width: 16px;
-  height: 16px;
+   width: 10px;
+  height: 8px;
 }
 .modal-field-textarea {
   margin-bottom: 16px;
@@ -754,6 +754,9 @@ display: flex;
 gap: 8px;
 }
 input[type="checkbox"]:checked + label .modal-svg-check {
+  fill: #F4F4FD;
+}
+input:checked + label .modal-span {
   background-color: #404bbf;
   border: none;
   fill: #F4F4FD;
