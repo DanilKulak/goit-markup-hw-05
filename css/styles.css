@@ -754,11 +754,12 @@ display: flex;
 gap: 8px;
 }
 input:checked + label .modal-svg-check {
-  fill: #F4F4FD;
+  fill:var(--cloud);
 }
 input:checked + label .modal-span {
   background-color:var(--ocean);
   border: none;
+  fill:var(--cloud);
 }
 .modal-span {
   width: 16px;
