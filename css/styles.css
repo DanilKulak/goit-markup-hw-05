@@ -714,11 +714,10 @@ display: block;
   position: relative;
 }
 .modal-svg-check {
-  fill: transparent;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-   width: 10px;
+  width: 10px;
   height: 8px;
 }
 .modal-field-textarea {
@@ -752,12 +751,10 @@ line-height: 1.17;
 letter-spacing: 0.04em;
 display: inline-block;
 }
-input:checked + label .modal-svg-check {
-  fill:var(--cloud);
-}
-input:checked + label .modal-span {
+.modal-check:checked + .modal-check-text span {
   background-color:var(--ocean);
   border: none;
+  fill:var(--cloud);
 }
 .modal-span {
   width: 16px;
@@ -768,7 +765,7 @@ input:checked + label .modal-span {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  fill: transparent;
+   fill: transparent;
 }
 .modal-check-link {
 color: #4d5ae5;
