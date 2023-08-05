@@ -715,8 +715,8 @@ display: block;
 }
 .modal-svg-check {
   position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+  top: auto;
+  transform: auto;
   width: 10px;
   height: 8px;
 }
@@ -747,14 +747,6 @@ display: block;
 .modal-check-container {
   margin-bottom: 24px;
 }
-.modal-check-text {
-  color: var(--lightslate, #8E8F99);
-font-size: 12px;
-line-height: 1.17;
-letter-spacing: 0.04em;
-display: inline-flex;
-gap: 8px;
-}
 .modal-span {
   width: 16px;
   height: 16px;
@@ -765,6 +757,15 @@ gap: 8px;
   align-items: center;
   justify-content: center;
   fill: transparent;
+}
+.modal-check-text {
+  color: var(--lightslate, #8E8F99);
+font-size: 12px;
+line-height: 1.17;
+letter-spacing: 0.04em;
+display: inline-flex;
+gap: 8px;
+
 }
 .modal-check-link {
 color: #4d5ae5;
