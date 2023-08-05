@@ -715,8 +715,8 @@ display: block;
 }
 .modal-svg-check {
   position: absolute;
-  top: auto;
-  transform: auto;
+  top: 50%;
+  transform: translateY(-50%);
   width: 10px;
   height: 8px;
 }
@@ -765,7 +765,6 @@ line-height: 1.17;
 letter-spacing: 0.04em;
 display: inline-flex;
 gap: 8px;
-
 }
 .modal-check-link {
 color: #4d5ae5;
