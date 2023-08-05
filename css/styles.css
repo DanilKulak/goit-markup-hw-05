@@ -757,14 +757,13 @@ display: block;
   align-items: center;
   justify-content: center;
   fill: transparent;
+  margin: 0 8px;
 }
 .modal-check-text {
   color: var(--lightslate, #8E8F99);
 font-size: 12px;
 line-height: 1.17;
 letter-spacing: 0.04em;
-display: inline-flex;
-gap: 8px;
 }
 .modal-check-link {
 color: #4d5ae5;
