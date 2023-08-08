@@ -641,7 +641,7 @@ button {
   width: 24px;
   height: 24px;
   border-radius: 50%;
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   background-color: #e7e9fc;
@@ -681,7 +681,7 @@ font-size: 12px;
 line-height: 1.17;
 letter-spacing: 0.04em;
 margin-bottom: 4px;
-display: block;
+
 }
 .modal-input {
   width: 100%;
@@ -747,6 +747,13 @@ display: block;
 .modal-check-container {
   margin-bottom: 24px;
 }
+.modal-check-text {
+  color: var(--lightslate, #8E8F99);
+font-size: 12px;
+line-height: 1.17;
+letter-spacing: 0.04em;
+display: flex;
+}
 .modal-span {
   width: 16px;
   height: 16px;
@@ -758,12 +765,6 @@ display: block;
   justify-content: center;
   fill: transparent;
   margin: 0 8px;
-}
-.modal-check-text {
-  color: var(--lightslate, #8E8F99);
-font-size: 12px;
-line-height: 1.17;
-letter-spacing: 0.04em;
 }
 .modal-check-link {
 color: #4d5ae5;
